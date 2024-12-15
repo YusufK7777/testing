@@ -20,16 +20,9 @@ function display_members($pdo, $parent_id = 0, $level = 0) {
         display_members($pdo, $row['id'], $level + 1);
         echo "</li>";
     }
-<<<<<<< HEAD
-} 
-
-//un commit code by main
-   
-=======
 }   
   
-//un commit code by sub_branch
->>>>>>> sub_branch
+//un commit code by sub_branch_1
 ?>
 
 <!DOCTYPE html>
