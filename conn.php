@@ -8,5 +8,5 @@ $dbname = 'test';
 
 // Create a PDO instance
 $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-
+//Test cmnt from github main
 ?>
