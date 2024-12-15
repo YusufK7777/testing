@@ -21,8 +21,8 @@ function display_members($pdo, $parent_id = 0, $level = 0) {
         echo "</li>";
     }
 }   
-// This is changes by sub_branch   
-//un commit code by main
+  
+//un commit code by sub_branch
 ?>
 
 <!DOCTYPE html>
