@@ -20,8 +20,8 @@ function display_members($pdo, $parent_id = 0, $level = 0) {
         display_members($pdo, $row['id'], $level + 1);
         echo "</li>";
     }
-}
-   
+}   
+// This is changes by sub_branch   
 ?>
 
 <!DOCTYPE html>
